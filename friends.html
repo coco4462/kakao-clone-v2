@@ -7,38 +7,41 @@
       src="https://kit.fontawesome.com/ae3fbd6169.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="statusbar__column">
-        <span class="status-bar__clock">05:50 </span>
+    <div class="fixed">
+      <div class="status-bar">
+        <div class="statusbar__column">
+          <span class="status-bar__clock">05:50 </span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="satus-bar__berttery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="satus-bar__berttery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <h1 class="header__title">Friends</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Friends</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends_friend friend friend--lg">
-          <div class="friends__column">
+        <div class="friends__friend friend">
+          <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
@@ -50,68 +53,71 @@
             </div>
           </div>
         </div>
-        <div class="friends__plus-friend">
-          <h5 class="friends__title">Plus friend</h5>
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Plus Friend
-                </span>
-              </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
             </div>
           </div>
         </div>
-        <ul class="friends__list">
-          <h5 class="friends___title">Friends 14</h5>
-          <li class="friends__friend friend">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Tiger
-                </span>
-                <span class="friend_status">
-                  Awesome Tiger
-                </span>
-              </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Tiger
+              </span>
+              <span class="friend__status">
+                Awesome Tiger
+              </span>
             </div>
-            <div class="friend__column">
-              <div class="friend_now-listening">
-                <span>
-                  너희가 힙합을 아느냐-Drunken Tiger
-                </span>
+          </div>
+          <div class="friend__column friend">
+            <div class="friend__now-listening">
+              <span>
+                사랑앓이-FTISLAND
                 <i class="fas fa-play"></i>
-              </div>
+              </span>
             </div>
-          </li>
-        </ul>
-      </header>
+          </div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="friends.html" class="nave__list-link">
+          <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nave__list-link">
+          <a href="index.html" class="nav__list-link">
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="find.html" class="nave__list-link">
+          <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="more.html" class="nave__list-link">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">화면 크기를 줄여주세요~!</span>
+    </div>
   </body>
 </html>

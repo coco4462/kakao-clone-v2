@@ -12,7 +12,7 @@
 
 .chat-screen {
   background-image: url(../images/chatBG.png);
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 .chat__write {
